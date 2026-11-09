@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Metadatenprofile für Testaufgaben - Mathematik StarS BKT",
+    "section": "",
+    "text": "ID of profile-store: mab\nCreator: IQB - Institut zur Qualitätsentwicklung im Bildungswesen\n1 Profil definiert:\n\nIQB Mathematik StarS BKT - Aufgabe\nID of profile: https://w3id.org/iqb/p30/unit/\n\n\n\n\n\n\n\n\n\nName/Label\nTyp\nParameter\nID Profil-Eintrag\n\n\n\n\nKlassenstufe\nVokabular\nurl: ‘http://w3id.org/openeduhub/vocabs/educationalLevel/’, Mehrfachauswahl, Dialogbox, Nummerierung unterdrückt\nf0\n\n\nKopfhörereinsatz\nVokabular\nurl: ‘https://w3id.org/iqb/v24/kh/’, Einmalauswahl, Dialogbox, Nummerierung unterdrückt\niqb_phones\n\n\nLeitidee\nVokabular\nurl: ‘https://w3id.org/iqb/v10/i1/’, Einmalauswahl, Zeige nur erste Ebene, Dialogbox\nw8\n\n\nAufgabenzeit\nZahl\nKommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden\niqb_time_unit\n\n\nTranskript Original / Text Original\nText\nMehrzeilig, Sprache(n): de\niqb_transcript\n\n\nStimulusformat\nVokabular\nurl: ‘https://w3id.org/iqb/v32/st/’, Mehrfachauswahl, Zeige nur erste Ebene, Dialogbox\niqb_stimulusformat\n\n\nAntwortformat\nVokabular\nurl: ‘https://w3id.org/iqb/v32/at/’, Mehrfachauswahl, Dialogbox\niqb_antwortformat\n\n\nautomatische Weiterleitung\nJa/Nein\nText für WAHR: ja, Text für FALSCH: nein\niqb_redirekt"
+  },
+  {
+    "objectID": "docs/changelog.html",
+    "href": "docs/changelog.html",
+    "title": "",
+    "section": "",
+    "text": "Änderung von Version 0.0.0 auf Version 0.1.0"
+  }
+]
