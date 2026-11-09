@@ -3,7 +3,7 @@
   "label": [
     {
       "lang": "de",
-      "value": "IQB Mathematik Primar - Aufgabe"
+      "value": "IQB Mathematik StarS BKT - Aufgabe"
     }
   ],
   "target": [
@@ -104,20 +104,6 @@
             "url": "https://w3id.org/iqb/v32/st/",
             "allowMultipleValues": true,
             "maxLevel": 1
-          }
-        },
-        {
-          "id": "iqb_antwortformat",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Antwortformat"
-            }
-          ],
-          "type": "VOCABULARY",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v32/at/",
-            "allowMultipleValues": true
           }
         },
         {
