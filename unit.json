@@ -1,0 +1,164 @@
+{
+  "id": "https://w3id.org/iqb/p30/unit/",
+  "label": [
+    {
+      "lang": "de",
+      "value": "IQB Mathematik Primar - Aufgabe"
+    }
+  ],
+  "target": [
+    "UNIT"
+  ],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Aufgabe"
+        }
+      ],
+      "entries": [
+        {
+          "id": "f0",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Klassenstufe"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "http://w3id.org/openeduhub/vocabs/educationalLevel/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_phones",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Kopfhörereinsatz"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v24/kh/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "w8",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Leitidee"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v10/i1/",
+            "allowMultipleValues": false,
+            "maxLevel": 1
+          }
+        },
+        {
+          "id": "iqb_time_unit",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Aufgabenzeit"
+            }
+          ],
+          "type": "NUMBER",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_transcript",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Transkript Original / Text Original"
+            }
+          ],
+          "type": "TEXT",
+          "parameters": {
+            "format": "MULTILINE"
+          }
+        },
+        {
+          "id": "iqb_stimulusformat",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Stimulusformat"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/st/",
+            "allowMultipleValues": true,
+            "maxLevel": 1
+          }
+        },
+        {
+          "id": "iqb_antwortformat",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Antwortformat"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/at/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_antwortformat",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Antwortformat"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/at/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_redirekt",
+          "label": [
+            {
+              "lang": "de",
+              "value": "automatische Weiterleitung"
+            }
+          ],
+          "type": "BOOLEAN",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "ja"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "nein"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
