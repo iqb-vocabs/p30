@@ -60,7 +60,35 @@
           "parameters": {
             "url": "https://w3id.org/iqb/v10/i1/",
             "allowMultipleValues": false,
+            "maxLevel": 3
+          }
+        },
+        {
+          "id": "iqb_feature_mb",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Weitere inhaltliche Merkmale"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/mm/",
+            "allowMultipleValues": true,
             "maxLevel": 1
+          }
+        },
+        {
+          "id": "iqb_transcript",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Hörsequenz Transkript"
+            }
+          ],
+          "type": "TEXT",
+          "parameters": {
+            "format": "MULTILINE"
           }
         },
         {
@@ -76,19 +104,6 @@
             "minValue": 0,
             "digits": 0,
             "isPeriodSeconds": true
-          }
-        },
-        {
-          "id": "iqb_transcript",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Transkript Original / Text Original"
-            }
-          ],
-          "type": "TEXT",
-          "parameters": {
-            "format": "MULTILINE"
           }
         },
         {
@@ -117,6 +132,34 @@
           "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v32/at/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_player",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Player"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/ap/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_type_test",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Testtyp"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/tt/",
             "allowMultipleValues": true
           }
         },
