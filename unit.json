@@ -74,7 +74,7 @@
           "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v32/mm/",
-            "allowMultipleValues": true,
+            "allowMultipleValues": false,
             "maxLevel": 1
           }
         },
@@ -89,21 +89,6 @@
           "type": "TEXT",
           "parameters": {
             "format": "MULTILINE"
-          }
-        },
-        {
-          "id": "iqb_time_unit",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Aufgabenzeit"
-            }
-          ],
-          "type": "NUMBER",
-          "parameters": {
-            "minValue": 0,
-            "digits": 0,
-            "isPeriodSeconds": true
           }
         },
         {
@@ -122,7 +107,45 @@
           }
         },
         {
-          "id": "iqb_antwortformat",
+          "id": "iqb_number_response",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Anzahl Antwortmöglichkeiten"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/am/",
+            "allowMultipleValues": false
+          }
+        },
+        {
+          "id": "iqb_multiple_response",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Mehrfachantwort"
+            }
+          ],
+          "type": "BOOLEAN",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "ja"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "nein"
+              }
+            ]
+          }
+        },
+        {
+          "id": "iqb_response_format",
           "label": [
             {
               "lang": "de",
@@ -131,8 +154,33 @@
           ],
           "type": "VOCABULARY",
           "parameters": {
-            "url": "https://w3id.org/iqb/v32/at/",
-            "allowMultipleValues": true
+            "url": "https://w3id.org/iqb/v32/st/",
+            "allowMultipleValues": true,
+            "maxLevel": 1
+          }
+        },
+        {
+          "id": "iqb_keyboard",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Tastatur"
+            }
+          ],
+          "type": "BOOLEAN",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "Tastatur eingeblendet"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "Computertastatur"
+              }
+            ]
           }
         },
         {
@@ -146,7 +194,7 @@
           "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v32/ap/",
-            "allowMultipleValues": true
+            "allowMultipleValues": false
           }
         },
         {
