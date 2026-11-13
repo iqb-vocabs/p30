@@ -14,7 +14,7 @@
       "label": [
         {
           "lang": "de",
-          "value": "Aufgabe"
+          "value": "Stimulus"
         }
       ],
       "entries": [
@@ -107,83 +107,6 @@
           }
         },
         {
-          "id": "iqb_number_response",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Anzahl Antwortmöglichkeiten"
-            }
-          ],
-          "type": "VOCABULARY",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v32/am/",
-            "allowMultipleValues": false
-          }
-        },
-        {
-          "id": "iqb_multiple_response",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Mehrfachantwort"
-            }
-          ],
-          "type": "BOOLEAN",
-          "parameters": {
-            "trueLabel": [
-              {
-                "lang": "de",
-                "value": "ja"
-              }
-            ],
-            "falseLabel": [
-              {
-                "lang": "de",
-                "value": "nein"
-              }
-            ]
-          }
-        },
-        {
-          "id": "iqb_response_format",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Antwortformat"
-            }
-          ],
-          "type": "VOCABULARY",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v32/st/",
-            "allowMultipleValues": true,
-            "maxLevel": 1
-          }
-        },
-        {
-          "id": "iqb_keyboard",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Tastatur"
-            }
-          ],
-          "type": "BOOLEAN",
-          "parameters": {
-            "trueLabel": [
-              {
-                "lang": "de",
-                "value": "Tastatur eingeblendet"
-              }
-            ],
-            "falseLabel": [
-              {
-                "lang": "de",
-                "value": "Computertastatur"
-              }
-            ]
-          }
-        },
-        {
           "id": "iqb_player",
           "label": [
             {
@@ -235,6 +158,93 @@
             ]
           }
         }
+      ]
+    },
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Antwort"
+        }
+      ],
+      "entries": [
+          {
+            "id": "iqb_number_response",
+            "label": [
+              {
+                "lang": "de",
+                "value": "Anzahl Antwortmöglichkeiten"
+              }
+            ],
+            "type": "VOCABULARY",
+            "parameters": {
+              "url": "https://w3id.org/iqb/v32/am/",
+              "allowMultipleValues": false
+            }
+          },
+          {
+            "id": "iqb_multiple_response",
+            "label": [
+              {
+                "lang": "de",
+                "value": "Mehrfachantwort"
+              }
+            ],
+            "type": "BOOLEAN",
+            "parameters": {
+              "trueLabel": [
+                {
+                  "lang": "de",
+                  "value": "ja"
+                }
+              ],
+              "falseLabel": [
+                {
+                  "lang": "de",
+                  "value": "nein"
+                }
+              ]
+            }
+          },
+          {
+            "id": "iqb_response_format",
+            "label": [
+              {
+                "lang": "de",
+                "value": "Antwortformat"
+              }
+            ],
+            "type": "VOCABULARY",
+            "parameters": {
+              "url": "https://w3id.org/iqb/v32/st/",
+              "allowMultipleValues": true,
+              "maxLevel": 1
+            }
+          },
+          {
+            "id": "iqb_keyboard",
+            "label": [
+              {
+                "lang": "de",
+                "value": "Tastatur"
+              }
+            ],
+            "type": "BOOLEAN",
+            "parameters": {
+              "trueLabel": [
+                {
+                  "lang": "de",
+                  "value": "Tastatur eingeblendet"
+                }
+              ],
+              "falseLabel": [
+                {
+                  "lang": "de",
+                  "value": "Computertastatur"
+                }
+              ]
+            }
+          }
       ]
     }
   ]
