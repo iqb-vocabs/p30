@@ -4,6 +4,10 @@
     {
       "lang": "de",
       "value": "IQB Mathematik StarS BKT - Aufgabe"
+    },
+    {
+      "lang": "en",
+      "value": "IQB Mathematics StarS BKT - Unit"
     }
   ],
   "target": [
@@ -15,6 +19,10 @@
         {
           "lang": "de",
           "value": "Aufgabe"
+        },
+        {
+          "lang": "en",
+          "value": "Unit"
         }
       ],
       "entries": [
@@ -24,6 +32,10 @@
             {
               "lang": "de",
               "value": "Klassenstufe"
+            },
+            {
+              "lang": "en",
+              "value": "Grade level"
             }
           ],
           "type": "VOCABULARY",
@@ -39,6 +51,10 @@
             {
               "lang": "de",
               "value": "Kopfhörereinsatz"
+            },
+            {
+              "lang": "en",
+              "value": "Use of headphones"
             }
           ],
           "type": "VOCABULARY",
@@ -54,6 +70,10 @@
             {
               "lang": "de",
               "value": "Leitidee"
+            },
+            {
+              "lang": "en",
+              "value": "Key idea"
             }
           ],
           "type": "VOCABULARY",
@@ -68,6 +88,10 @@
             {
               "lang": "de",
               "value": "Spezifische Fähigkeiten"
+            },
+            {
+              "lang": "en",
+              "value": "Specific skills"
             }
           ],
           "type": "VOCABULARY",
@@ -82,6 +106,10 @@
             {
               "lang": "de",
               "value": "Hörsequenz Transkript"
+            },
+            {
+              "lang": "en",
+              "value": "Audio sequence transcript"
             }
           ],
           "type": "TEXT",
@@ -95,6 +123,10 @@
             {
               "lang": "de",
               "value": "Stimulusformat"
+            },
+            {
+              "lang": "en",
+              "value": "Stimulus format"
             }
           ],
           "type": "VOCABULARY",
@@ -109,6 +141,10 @@
             {
               "lang": "de",
               "value": "Anzahl Antwortmöglichkeiten"
+            },
+            {
+              "lang": "en",
+              "value": "Number of response options"
             }
           ],
           "type": "VOCABULARY",
@@ -123,6 +159,10 @@
             {
               "lang": "de",
               "value": "Mehrfachantwort"
+            },
+            {
+              "lang": "en",
+              "value": "Multiple response"
             }
           ],
           "type": "BOOLEAN",
@@ -131,12 +171,20 @@
               {
                 "lang": "de",
                 "value": "ja"
+              },
+              {
+                "lang": "en",
+                "value": "yes"
               }
             ],
             "falseLabel": [
               {
                 "lang": "de",
                 "value": "nein"
+              },
+              {
+                "lang": "en",
+                "value": "no"
               }
             ]
           }
@@ -147,6 +195,10 @@
             {
               "lang": "de",
               "value": "Antwortformat"
+            },
+            {
+              "lang": "en",
+              "value": "Response format"
             }
           ],
           "type": "VOCABULARY",
@@ -162,6 +214,10 @@
             {
               "lang": "de",
               "value": "Tastatur"
+            },
+            {
+              "lang": "en",
+              "value": "Keyboard"
             }
           ],
           "type": "BOOLEAN",
@@ -170,12 +226,20 @@
               {
                 "lang": "de",
                 "value": "Tastatur eingeblendet"
+              },
+              {
+                "lang": "en",
+                "value": "On-screen keyboard"
               }
             ],
             "falseLabel": [
               {
                 "lang": "de",
                 "value": "Computertastatur"
+              },
+              {
+                "lang": "en",
+                "value": "Computer keyboard"
               }
             ]
           }
@@ -185,6 +249,10 @@
           "label": [
             {
               "lang": "de",
+              "value": "Player"
+            },
+            {
+              "lang": "en",
               "value": "Player"
             }
           ],
@@ -200,6 +268,10 @@
             {
               "lang": "de",
               "value": "Testtyp"
+            },
+            {
+              "lang": "en",
+              "value": "Test type"
             }
           ],
           "type": "VOCABULARY",
@@ -214,6 +286,10 @@
             {
               "lang": "de",
               "value": "Automatische Weiterleitung"
+            },
+            {
+              "lang": "en",
+              "value": "Automatic forwarding"
             }
           ],
           "type": "BOOLEAN",
@@ -222,12 +298,20 @@
               {
                 "lang": "de",
                 "value": "ja"
+              },
+              {
+                "lang": "en",
+                "value": "yes"
               }
             ],
             "falseLabel": [
               {
                 "lang": "de",
                 "value": "nein"
+              },
+              {
+                "lang": "en",
+                "value": "no"
               }
             ]
           }
